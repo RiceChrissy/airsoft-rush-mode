@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\src\airsoft_rush_mode\build\windows\x64\CMakeFiles\58bf1b07f7389bc3fc05f5cd6643ae21\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\src\airsoft_rush_mode\build\windows\x64\CMakeFiles\1fc54732708b590221c1b899a22d1567\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\src\airsoft_rush_mode\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\src\airsoft_rush_mode\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{26FB1B5E-575D-3A10-A7B6-2B846700B5F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

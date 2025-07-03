@@ -1,0 +1,10 @@
+^C:\SRC\AIRSOFT_RUSH_MODE\BUILD\WINDOWS\X64\CMAKEFILES\9FE38A6BABF161B94C5E70721CBAC6DE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/src/airsoft_rush_mode/windows -BC:/src/airsoft_rush_mode/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/src/airsoft_rush_mode/build/windows/x64/airsoft_rush_mode.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
